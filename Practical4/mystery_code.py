@@ -1,6 +1,6 @@
 # What does this piece of code do?
-# Answer:
-
+# Answer: It simulates a dice game where two dice are thrown until the same number is thrown on both dice.
+#         The number of throws is printed.
 # Import libraries
 # randint allows drawing a random number,
 # e.g. randint(1,5) draws a number between 1 and 5
