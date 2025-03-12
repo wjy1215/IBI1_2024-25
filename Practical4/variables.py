@@ -10,11 +10,17 @@ if c > f :
     print("c > f")
 else:
     print("f > c")
-'''PS C:\cygwin64\home\wjyibi\IBI1_2024-25\Practical4> & C:/Users/wjywj/AppData/Local/Programs/Python/Python313/python.exe c:/cygwin64/home/wjyibi/IBI1_2024-25/Practical4/variables.py
-f > c
-False'''
+    # driver code is quicker
+#PS C:\cygwin64\home\wjyibi\IBI1_2024-25\Practical4> & C:/Users/wjywj/AppData/Local/Programs/Python/Python313/python.exe c:/cygwin64/home/wjyibi/IBI1_2024-25/Practical4/variables.py
+#f > c   
+#False
 
 X=True
 Y=False
 W= X and Y
 print(W)
+#X     Y      W 
+#True  False  False
+#True  True  True
+#False  False  False
+#False  True  False
