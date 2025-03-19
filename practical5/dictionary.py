@@ -12,5 +12,5 @@ plt.title('Popular Programming Languages')
 plt.xlabel('Languages')
 plt.ylabel('Popularity')
 plt.show()
-selected_language = 'HTML'
+selected_language = 'HTML' # Change the language to see the popularity
 print(languages_dic[selected_language]) #Display the value of the key
