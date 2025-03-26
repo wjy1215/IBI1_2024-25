@@ -2,8 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def run_sir_model(vaccination_percentage):
-    # Define the basic variables of the model
-    N = 10000  # Total population
+    N = 10000  
     vaccinated = int(N * vaccination_percentage)
     S = N - 1 - vaccinated  # Initial number of susceptible individuals
     if S < 0:
@@ -59,8 +58,10 @@ for vp in vaccination_percentages:
 
 # Plot the results
 plt.figure(figsize=(10, 6), dpi=100)
-for i, vp in enumerate(vaccination_percentages):
+i=0
+for vp in vaccination_percentages:
     plt.plot(infected_curves[i], label=f'{vp*100}% vaccinated')
+    i+=1
 
 plt.xlabel('Time')
 plt.ylabel('Number of Infected People')
