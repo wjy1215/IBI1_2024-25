@@ -4,7 +4,8 @@ def find_restriction_sites(dna_sequence, recognition_sequence):
     while pos != -1:
         sites.append(pos)
         pos = dna_sequence.find(recognition_sequence, pos + 1)
-        return sites
+    if sites:
+       return sites
     return 'NOT_FOUND'
 seq=input("Enter the DNA sequence: ").upper()
 rec_seq=input("Enter the recognition sequence: ").upper()
