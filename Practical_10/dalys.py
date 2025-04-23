@@ -14,7 +14,8 @@ print(dalys_data.iloc[0:5:2,0:1])# Display every second row of the first column
 '''
 
 #code for showing the third column for the first 10 rows
-print(dalys_data.iloc[0:10,2]) # The tenth year  with DALYs data recorded in Afghanistan is 82624.94
+print(dalys_data.iloc[0:10,2]) 
+'The tenth year  with DALYs data recorded in Afghanistan is 82624.94'
 
 #The DALYs for countries in 1990
 print('\nThe DALYs for countries in 1990')
@@ -27,6 +28,7 @@ mean_Uk=Uk['DALYs'].mean() # Calculate the mean DALYs for the UK
 mean_France=France['DALYs'].mean() # Calculate the mean DALYs for France
 print('The mean DALYs in the UK is:',mean_Uk) # Print the mean DALYs for the UK
 print('The mean DALYs in France is:',mean_France) # Print the mean DALYs for France
+print('The mean DALYs in the UK is greater than France') 
 'UK is greater than France'
 
 #A plot showing the DALYS over time in the UK
