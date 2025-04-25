@@ -2,4 +2,4 @@ In this lesson, I tried to do some tasks with GitHub for the first time.
 I learned how to make my own website, 
 and I also deepened my memory and understanding of these basic operations.
  I hope that in the future, the teacher can explain the specific operation in the class.
-Commit is very important.
+Commit imformative is very important.
