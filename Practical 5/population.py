@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 uk_population=[57.11,3.13,1.91,5.45]
 countries=['England','Scotland','Wales','Northern Ireland']
 china_population=[65.77,41.88,45.28,61.27,85.15]
-provience=['Zhejiang','Fujiang','Jiangxi','Hanhui','Jiangsu']
+provience=['Zhejiang','Fujian','Jiangxi','Anhui','Jiangsu']
 sorted_UK= sorted(uk_population,reverse=True)
 sorted_China= sorted(china_population,reverse=True) 
 print(sorted_UK)

@@ -10,7 +10,7 @@ if c > f :
     print("c > f")
 else:
     print("f > c")
-    # driver code is quicker
+    # bus code is quicker
 #PS C:\cygwin64\home\wjyibi\IBI1_2024-25\Practical4> & C:/Users/wjywj/AppData/Local/Programs/Python/Python313/python.exe c:/cygwin64/home/wjyibi/IBI1_2024-25/Practical4/variables.py
 #f > c   
 #False

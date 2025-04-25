@@ -5,7 +5,7 @@
 #change lables to keys and autopct to values
 # show the bar chart
 import matplotlib.pyplot as plt
-languages_dic = {'JaveScript': 62.3, 'HTML': 52.9, 'Python': 51, 'SQL': 51, 'TypeScript': 38.5}
+languages_dic = {'JavaScript': 62.3, 'HTML': 52.9, 'Python': 51, 'SQL': 51, 'TypeScript': 38.5}
 print(languages_dic)
 plt.bar(languages_dic.keys(), languages_dic.values())
 plt.title('Popular Programming Languages')
