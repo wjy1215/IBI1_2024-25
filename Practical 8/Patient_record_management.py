@@ -6,6 +6,7 @@ class patients:
         self.medical_history = medical_history
     def display(self):
         print(f"Patient Name: {self.name}, Age: {self.age}, Latest Admission: {self.latest_admission}, Medical History: {self.medical_history}")
+
 # Example usage
 patient1 = patients("Lrving", 33, "2025-3-27", "ACL surgery")
 patient1.display()
@@ -13,6 +14,7 @@ patient1.display()
 patient2 = patients("John Doe", 45, "2025-3-28", "Diabetes")
 patient2.display()
 '''
+
 # input if needed
 '''
 patient_name = input("Enter patient's name: ")
