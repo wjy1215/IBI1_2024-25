@@ -15,7 +15,9 @@ print(dalys_data.iloc[0:5:2,0:1])# Display every second row of the first column
 
 #code for showing the third column for the first 10 rows
 print(dalys_data.iloc[0:10,2]) 
-'The tenth year  with DALYs data recorded in Afghanistan is 1999 and data is 82624.94'
+
+'The tenth year  with DALYs data recorded in Afghanistan is 1999 '
+'and data is 82624.94'
 
 #The DALYs for countries in 1990
 print('\nThe DALYs for countries in 1990')
