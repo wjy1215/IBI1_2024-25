@@ -14,7 +14,7 @@ gene_name = []
 gene_seq = []
 current_name = None
 current_sequence = ''
-# Read the input FASTA file and extract gene names and sequences
+# Read the input FASTA file and extract gene names and the sequences
 # The input file is expected to be in FASTA format with gene names in the header lines
 with open(input_file, 'r') as fasta_in:
     for line in fasta_in:
