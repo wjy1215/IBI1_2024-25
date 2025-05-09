@@ -2,10 +2,12 @@ import sys
 import re
 # This script extracts genes with TATA boxes from a FASTA file and writes them to a new file.
 # It uses regular expressions to find TATA boxes in the gene sequences.
-gene_name=[]
+intput_file_path = r'Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa'
+output_file_path = r'tata_genes.fa'
 gene_seq=[]
-input=open('Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa','r')
-output=open('tata_genes.fa','w')
+gene_name=[]
+input=open(r"C:\cygwin64\home\wjyibi\IBI1_2024-25\Practical 7\Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa",'r')
+output=open(r'C:\cygwin64\home\wjyibi\IBI1_2024-25\Practical 7\tata_genes.fa','w')
 m=-1
 # Read the input FASTA file and extract gene names and sequences
 # The input file is expected to be in FASTA format with gene names in the header lines
