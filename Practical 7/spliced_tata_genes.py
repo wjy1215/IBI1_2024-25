@@ -8,8 +8,8 @@ acceptor=splice_combination[2:]
 if splice_combination not in valid_combinations:
     print("Invalid combination. Please enter one of GTAG, GCAG, or ATAC.")
     exit(1)
-input_file = 'Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa'
-output_file = f'{splice_combination}_spliced_genes.fa'
+input_file=r"C:\cygwin64\home\wjyibi\IBI1_2024-25\Practical 7\Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa"
+output_file=rf'C:\cygwin64\home\wjyibi\IBI1_2024-25\Practical 7\{splice_combination}_spliced_genes.fa'
 gene_name = []
 gene_seq = []
 current_name = None
