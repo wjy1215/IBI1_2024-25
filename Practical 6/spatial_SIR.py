@@ -22,7 +22,7 @@ Adjust the layout and show the plot'''
 import numpy as np
 import matplotlib.pyplot as plt
 population = np.zeros((100, 100))
-outbreak = np.random.choice(range(100), 2)
+outbreak = np.random.choice(range(100), 2)    # Randomly select one to be the initial infected person
 population[outbreak[0], outbreak[1]] = 1
 beta = 0.3 
 gamma = 0.05 
@@ -33,7 +33,7 @@ for t in range(time_steps):
     for i in range(100):
         for j in range(100):
             if population[i, j] == 1: 
-                for di in [-1, 0, 1]:
+                for di in [-1, 0, 1]:                   # Check all 8 neighbours 
                     for dj in [-1, 0, 1]:
                         if di == 0 and dj == 0:
                             continue 
