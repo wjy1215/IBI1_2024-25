@@ -15,6 +15,7 @@ if strength_paracetamol not in [120, 250]:
 # Calculate the dosage
 needed_dasage=calculate_dosage(weight_kg, strength_paracetamol)
 print(f"The recommended dosage of paracetamol is {needed_dasage} ml.")
+
 # Example usage
 weight_kg = 20
 strength_paracetamol = 120
