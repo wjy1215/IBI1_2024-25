@@ -1,5 +1,5 @@
 import re
-seq = 'ATGCAAGTGGTGTGTCTGTTCTGAGAGGGCCTAA'
+seq = 'ATGCAAGTGGTGTGTCTGTTCTGAGAGGGCCTAA' # DNA sequence
 intron=re.findall(r'GT[ATCG]*AG', seq)
 print(intron)
 print('The largest intron is:', max(intron, key=len))
