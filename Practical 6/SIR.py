@@ -1,16 +1,16 @@
 import numpy as np
 import matplotlib.pyplot as plt
-N=10000
-beta=0.3
-gamma=0.05
-N = 10000  
-S = N - 1  
-I = 1     
-R = 0 
+N=10000      # size of the population
+beta=0.3     # infection rate beta
+gamma=0.05   # recovery rate gamma
+N = 10000  # size of the population
+S = N - 1  # initial size of the population
+I = 1      # initial number of infected individuals
+R = 0      # initial number of recovered individuals
 time_steps = 1000
-S_history = [S]
-I_history = [I]
-R_history = [R]
+S_history = [S]    # history of susceptible individuals
+I_history = [I]    # history of infected individuals
+R_history = [R]    # history of recovered individuals
 for i in range(time_steps):
     infection_prob = beta*(I/N)
     new_infections = np.random.choice([0, 1], S, p=[1 - infection_prob, infection_prob])
