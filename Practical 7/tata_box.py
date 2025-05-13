@@ -1,5 +1,7 @@
 import sys
 import re
+import os
+os.chdir('practical 7')
 # This script extracts genes with TATA boxes from a FASTA file and writes them to a new file.
 # It uses regular expressions to find TATA boxes in the gene sequences.
 intput_file_path = r'Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa'
