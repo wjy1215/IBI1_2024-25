@@ -21,23 +21,22 @@ def blosum_score(s1, s2):
         else:
             score += matrix[a][b]
     return score,identical
-
-seq1 = read_fasta("Human.fasta")
-seq2= read_fasta("Mouse.fasta")
-seq3 = read_fasta("randam.fasta")
+seq_human = read_fasta("Human.fasta")
+seq_mouse= read_fasta("Mouse.fasta")
+seq_random = read_fasta("random.fasta")
 # human and mouse
-blosum_score1, identical1 = blosum_score(seq1, seq2)
-pre_identity1 = identical1 / len(seq1) * 100
+blosum_score1, identical1 = blosum_score(seq_human, seq_mouse)
+pre_identity1 = identical1 / len(seq_human) * 100
 # human and random
-blosum_score2, identical2 = blosum_score(seq1, seq3)
-pre_identity2 = identical2 / len(seq1) * 100
+blosum_score2, identical2 = blosum_score(seq_human, seq_random)
+pre_identity2 = identical2 / len(seq_human) * 100
 # mouse and random
-blosum_score3, identical3 = blosum_score(seq2, seq3)
-pre_identity3 = identical3 / len(seq2) * 100
+blosum_score3, identical3 = blosum_score(seq_mouse, seq_random)
+pre_identity3 = identical3 / len(seq_mouse) * 100
 # Print the results
-print("The blosum score between seq1 and seq2 is:", blosum_score1)  #  score:human and mouse 
-print("The pre_identity between seq1 and seq2 is:", pre_identity1)  #  pre_identity:human and mouse
-print("The blosum score between seq1 and seq3 is:", blosum_score2)  #  score:human and random
-print("The pre_identity between seq1 and seq3 is:", pre_identity2)  #  pre_identity:human and random
-print("The blosum score between seq2 and seq3 is:", blosum_score3)  #  score:mouse and random
-print("The pre_identity between seq2 and seq3 is:", pre_identity3)  #  pre_identity:mouse and random
+print("The blosum score betweenseq_human and seq_mouse is:", blosum_score1)  #  score:human and mouse 
+print("The pre_identity betweenseq_human and seq_mouse is:", pre_identity1)  #  pre_identity:human and mouse
+print("The blosum score betweenseq_human and seq_random is:", blosum_score2)  #  score:human and random
+print("The pre_identity betweenseq_human and seq_random is:", pre_identity2)  #  pre_identity:human and random
+print("The blosum score between seq_mouse and seq_random is:", blosum_score3)  #  score:mouse and random
+print("The pre_identity between seq_mouse and seq_random is:", pre_identity3)  #  pre_identity:mouse and random
