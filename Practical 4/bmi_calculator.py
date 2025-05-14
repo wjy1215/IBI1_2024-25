@@ -1,4 +1,5 @@
 # Purpose: To calculate the BMI of a person and determine if the person is underweight, normal weight or obese. 
+
 a=float(input("Enter your weight in kg: ")) #ask the user to enter their weight in kg
 b=float(input("Enter your height in m: ")) #ask the user to enter their height in meters
 #calculate the BMI of the person
