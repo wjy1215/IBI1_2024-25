@@ -1,4 +1,6 @@
 import re
+import os
+os.chdir('practical 7')
 splice_combination = input("Enter one of the splice donor/acceptor combinations (GTAG, GCAG, ATAC): ").strip().upper()
 valid_combinations = {"GTAG", "GCAG", "ATAC"}
 doner=splice_combination[:2]
