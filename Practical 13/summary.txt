@@ -1,0 +1,34 @@
+1, The length of human SOD2 protein  : 222
+
+2, The subcellular localisation of the human SDO2 protein : extracellular exosomeSource
+                                                            mitochondrial matrix
+                                                            mitochondrial nucleoid
+                                                            mitochondrion
+
+3,The range of percentage identities in the reported online BLAST results
+Online BLAST Results: For the human SOD2 protein query against the UniProt database with the BLAST search restricted to Eutheria, 1445 hits were obtained. 
+The range of percentage identity among the retrieved alignments was from 58.1% to 100%. 
+The alignment with the mouse SOD2 protein (UniProt ID: P09671) had a percentage identity of 90.1%.
+
+4, The alignment score and percentage of identical amino acids for each of the
+three comparisons that you performed using Python:
+The pre_identity between human and mouse is: 90.09009009009009
+
+The pre_identity between human and random is: 6.306306306306306
+
+The pre_identity between mouse and random is: 6.756756756756757
+
+The blosum score between human and mouse is: 1097.0
+
+The blosum score between human and random is: -209.0
+
+The blosum score between mouse and random is: -205.0
+
+5，A statement recording which of these two sequences are most closely related：
+As both precentage of identical and alignment score between human and mouse is highest,
+human sequence and mouse sequence are most closely related
+
+
+
+
+
