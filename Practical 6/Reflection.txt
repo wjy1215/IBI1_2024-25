@@ -1,4 +1,4 @@
-In this task, we need to write three programs related to the epidemic. 
+In this task,we need to write three programs related to the epidemic. 
 The difficulty of my task has greatly increased compared to before. 
 The program code has become longer and more complex. 
 I think it is particularly important to have a good idea and name variables correctly at the beginning of this assignment.
