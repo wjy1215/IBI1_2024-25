@@ -12,7 +12,6 @@ def run_sir_model(vaccination_percentage):
 
     beta = 0.3  # Infection probability
     gamma = 0.05  # Recovery probability
-
     # Create arrays to track the evolution of S, I, and R over time
     time_steps = 1000
     S_history = [S]
