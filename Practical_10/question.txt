@@ -1,3 +1,8 @@
 How many years in Afghanistan from 1990 to 2019 when DALYs were greater than 70,000?
 Lines ：2-31
 Result : 17
+DISCUSS THE RESULT : Filtered Afghanistan’s data from 1990 to 2019, 
+then selected years with DALYs over 70,000. 
+Counted the number of such years. 
+The result shows that there were 17 years in which DALYs in
+Afghanistan were greater than 70,000 during that period.
